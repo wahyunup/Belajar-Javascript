@@ -16,7 +16,7 @@
 
 const pilihan = 'abcd'
 for (let i = 1; i <= 10; i++){
-    console.log(`${i}. soal nomor ${i}:`);
+    console.log(`${i}. test soal ${i}:`);
     for (let j = 0; j < pilihan.length; j++){
         console.log(`${pilihan[j]}. pilihan jawaban`);
     }
